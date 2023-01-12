@@ -6,7 +6,8 @@ def check_item_availability(plate):
 
     conn = mysql.connector.connect(host='localhost',
         user='root',
-        password='Hustle4hasil_',
+        password='password',
+        # password='Hustle4hasil_',
         database='resident')
     print("this is {}".format(plate))
     cursor = conn.cursor()
